@@ -1,0 +1,45 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+body{
+background-color: YELLOW;
+
+
+}
+#menu, #menu li{
+  margin:0px;
+  padding:0px;
+}
+#menu li{
+  list-style:none;
+  float:left;  
+}
+#menu li a{
+  display:block;
+  padding:3px 5px; /*Membuat jarak dalam atas 3px samping 5px*/
+  background:#B30000; /*Memberikan warna merah*/
+  text-decoration:none; /*menghilangkan underline pada menu*/
+  color:#FFF; /*Merubah warna tulisan menjadi putih*/
+  font-family:Arial, Helvetica, sans-serif; /*Jenis font*/
+  font-size:12px; /*kururan font*/
+}
+
+.box{
+	background-color: orange;
+	padding: 10px;
+	
+}
